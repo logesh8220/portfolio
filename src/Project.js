@@ -30,7 +30,7 @@ function Project() {
                     <div className=" project1  col-lg-4">
                         <img src="/img/shortener1.png" className="card-img-top" alt="urlshortner"/>
                             <div >
-                                <p style={{ fontFamily: "Cairo, sans-serif" }}>This is IMDB clone its show the online movies and TV shows ratings and other details with in short span of time</p>
+                                <p style={{ fontFamily: "Cairo, sans-serif" }}>Comming Soon...</p>
                                 <a className='p-icon' href='https://633d244cce5a75000919bc88--imaginative-lokum-bba323.netlify.app/' rel="noreferrer" target="_blank"><i className="bi bi-box-arrow-up-right me-5 p-5 project-icon"></i></a>
                                 <a className='p-icon' href='https://github.com/logesh8220/url_shortner_react'><i className="bi bi-github ms-5 p-5 project-icon"></i></a>
                             </div>
@@ -48,7 +48,7 @@ function Project() {
                     <div className=" project1  col-lg-4">
                         <img src="/img/shortener1.png" className="card-img-top" alt="urlshortner"/>
                             <div >
-                                <p style={{ fontFamily: "Cairo, sans-serif" }}>I've used hundreds of web and mobile apps in different industries and verticals</p>
+                                <p style={{ fontFamily: "Cairo, sans-serif" }}>Comming Soon...</p>
                                 <a className='p-icon' href='https://633d244cce5a75000919bc88--imaginative-lokum-bba323.netlify.app/' rel="noreferrer" target="_blank"><i className="bi bi-box-arrow-up-right me-5 p-5 project-icon"></i></a>
                                 <a className='p-icon' href='https://github.com/logesh8220/Movie-details-IMDb'><i className="bi bi-github ms-5 p-5 project-icon"></i></a>
                             </div>
