@@ -1,3 +1,3 @@
 export const sendmail ={
-    api:'https://logan-portfolioo.herokuapp.com'
+    api:'https://logeshs-portfolio.onrender.com'
 }
