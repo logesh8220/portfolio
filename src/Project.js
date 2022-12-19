@@ -28,11 +28,11 @@ function Project() {
                             </div>
                     </div>
                     <div className=" project1  col-lg-4">
-                        <img src="/img/shortener1.png" className="card-img-top" alt="urlshortner"/>
+                        <img src="/img/youtubedownloder.png" className="card-img-top" alt="urlshortner"/>
                             <div >
-                                <p style={{ fontFamily: "Cairo, sans-serif" }}>Comming Soon...</p>
-                                <a className='p-icon' href='https://633d244cce5a75000919bc88--imaginative-lokum-bba323.netlify.app/' rel="noreferrer" target="_blank"><i className="bi bi-box-arrow-up-right me-4 p-4 project-icon"></i></a>
-                                <a className='p-icon' href='https://github.com/logesh8220/url_shortner_react'><i className="bi bi-github ms-4 p-4 project-icon"></i></a>
+                                <p style={{ fontFamily: "Cairo, sans-serif" }}>With My YouTube video downloader, you can select videos and download them free of charge! You can get high-quality videos in MP4, MP3, SQ, HD, Full HD quality, and other formats. Our software works both on PC and mobile, allowing you to use it anywhere you are!</p>
+                                <a className='p-icon' href='hhttps://master--cozy-twilight-74a3ef.netlify.app/' rel="noreferrer" target="_blank"><i className="bi bi-box-arrow-up-right me-4 p-4 project-icon"></i></a>
+                                <a className='p-icon' href='https://github.com/logesh8220/youtube-video-downloader-react'><i className="bi bi-github ms-4 p-4 project-icon"></i></a>
                             </div>
                     </div>
                 </div>
