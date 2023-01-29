@@ -183,6 +183,15 @@ body{
   height: 150px;
   width: 70rem;
 }
+
+.resume{
+  color:#6e07f3;
+  text-decoration: none;
+  cursor: pointer;
+}
+.resume:hover{
+  color:#6e07f3
+}
 .project-div {
   height: 600px;
   background-color: #6e07f3;
@@ -385,7 +394,9 @@ body{
     padding:10rem 0 0 0;
 
   }
-
+  .resume:hover{
+    color:#ffffff
+  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -513,6 +524,9 @@ body{
   }
   .folio {
     color: #fff !important;
+  }
+  .resume:hover{
+    color:#ffffff
   }
 }
 
