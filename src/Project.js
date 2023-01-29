@@ -19,7 +19,7 @@ function Project() {
                         <img src="/img/zen.png" className="card-img-top project-img" alt="urlshortner" />
                         <div >
                             <p style={{ fontFamily: "Cairo, sans-serif" }}>Built with Bootstrap v5. Implemented Role Based Access Rights eg – (Mentor, Student) each user have their own features and limited access. Can.
-                                App also includes Product CRUD .</p>
+                                App also includes CRUD You Can Update Classes and Create Classes .</p>
                             <a className='p-icon' href='https://zenclass-dashboard-clone-batch37.netlify.app' rel="noreferrer" target="_blank"><i className="bi bi-box-arrow-up-right me-4 p-4 project-icon"></i></a>
                             <a className='p-icon' href='https://github.com/logesh8220/zen-class-dashbord' rel="noreferrer" target="_blank"><i className="bi bi-github ms-4 p-4 project-icon"></i></a>
                         </div>
