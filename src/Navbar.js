@@ -22,7 +22,7 @@ function Navbar() {
                         <li><a href="#simple-list-item-3"> <i className="bi bi-award me-2"></i>Skills</a></li>
                         <li><a href="#simple-list-item-4"> <i className="bi bi-cast me-2"></i>Projects</a></li>
                         <li><a href="#simple-list-item-5"> <i className="bi bi-person-lines-fill me-2"></i>Contact</a></li>
-                        <li><a className='resume' href="https://drive.google.com/file/d/1Xuwj6kd7znnRI88R0wJ8-xFwz-mvOE8F/view?usp=sharing" target="_blank" download="proposed_file_name"><i class="bi bi-file-earmark-arrow-down me-2"></i>Resume</a></li>
+                        <li><a className='resume' href="https://drive.google.com/file/d/1mSp2q-FecCS8adJDsOUWQYdm-HlPOfYe/view?usp=share_link" target="_blank" download="proposed_file_name"><i class="bi bi-file-earmark-arrow-down me-2"></i>Resume</a></li>
                     </ul>
                    
                 <div className={ isActive?'humbargar11':'humbargar'} onClick={slide}  >
