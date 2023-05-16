@@ -1,5 +1,8 @@
 import React from 'react'
-
+import reactIMG from './IMG/react.png'
+import nodeIMG from './IMG/node.png'
+import mongoIMG from './IMG/mongo.png'
+import bootIMG from './IMG/boot.png'
 function Project() {
     return (
         <div className=''>
@@ -17,6 +20,12 @@ function Project() {
                 <div className="row justify-content-around my-5">
                     <div className=" project1  col-lg-4">
                         <img src="/img/zen.png" className="card-img-top project-img" alt="urlshortner" />
+                        <div className='project-img'>
+                            <img className='col-2' src={reactIMG}></img>
+                            <img className='col-2' src={nodeIMG}></img>
+                            <img className='col-2' src={mongoIMG}></img>
+                            <img className='col-2' src={bootIMG}></img>
+                        </div>
                         <div >
                             <p style={{ fontFamily: "Cairo, sans-serif" }}>Built with Bootstrap v5. Implemented Role Based Access Rights eg – (Mentor, Student) each user have their own features and limited access. Can.
                                 App also includes CRUD You Can Update Classes and Create Classes .</p>
@@ -26,6 +35,12 @@ function Project() {
                     </div>
                     <div className=" project1  col-lg-4">
                         <img src="/img/youtubedownloder.png" className="card-img-top project-img" alt="youtubedownloader" />
+                        <div className='project-img'>
+                            <img className='col-2' src={reactIMG}></img>
+                            <img className='col-2' src={nodeIMG}></img>
+                            <img className='col-2' src={mongoIMG}></img>
+                            <img className='col-2' src={bootIMG}></img>
+                        </div>
                         <div >
                             <p style={{ fontFamily: "Cairo, sans-serif" }}>With My YouTube video downloader, you can select videos and download them free of charge! You can get high-quality videos in MP4, MP3, SQ, HD, Full HD quality, and other formats. Our software works both on PC and mobile, allowing you to use it anywhere you are!</p>
                             <a className='p-icon' href='https://master--cozy-twilight-74a3ef.netlify.app/' rel="noreferrer" target="_blank"><i className="bi bi-box-arrow-up-right me-4 p-4 project-icon"></i></a>
@@ -36,6 +51,12 @@ function Project() {
                 <div className="row justify-content-around my-5">
                     <div className=" project1  col-lg-4">
                         <img src="/img/realmestore.png" className="card-img-top project-img" alt="urlshortner" />
+                        <div className='project-img'>
+                            <img className='col-2' src={reactIMG}></img>
+                            <img className='col-2' src={nodeIMG}></img>
+                            <img className='col-2' src={mongoIMG}></img>
+                            <img className='col-2' src={bootIMG}></img>
+                        </div>
                         <div >
                             <p style={{ fontFamily: "Cairo, sans-serif" }}>Built with Bootstrap v5. Implemented ADMIN portal and integrated RAZORPAY payment Integration to make order from cart. All Products are created in Admin Portal of App </p>
                             <a className='p-icon' href='https://neon-otter-16f6a4.netlify.app/' rel="noreferrer" target="_blank"><i className="bi bi-box-arrow-up-right me-4 p-4 project-icon"></i></a>
@@ -44,6 +65,12 @@ function Project() {
                     </div>
                     <div className=" project1  col-lg-4">
                         <img src="/img/crm.png" className="card-img-top project-img" alt="urlshortner" />
+                        <div className='project-img'>
+                            <img className='col-2' src={reactIMG}></img>
+                            <img className='col-2' src={nodeIMG}></img>
+                            <img className='col-2' src={mongoIMG}></img>
+                            <img className='col-2' src={bootIMG}></img>
+                        </div>
                         <div >
                             <p style={{ fontFamily: "Cairo, sans-serif" }}> Built with Bootstrap v5. Implemented Role Based Access (ADMIN, Employee and Customers). each user have their own features and limited access. Can. App also includes Product CRUD </p>
                             <a className='p-icon' href='https://funny-sprite-477a4b.netlify.app/' rel="noreferrer" target="_blank"><i className="bi bi-box-arrow-up-right me-4 p-4 project-icon"></i></a>
