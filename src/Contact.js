@@ -5,9 +5,11 @@ import React, { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import { sendmail } from './Mailer'
+import { useAppContext } from './ContextForSwitchLanguage';
 
 
 function Contact() {
+    const { languageState} = useAppContext()
     const [issending, setloading] = useState(false)
     const formik = useFormik({
         initialValues: {
@@ -40,7 +42,7 @@ function Contact() {
             <div>
                 <div className="Contact-info text-center text-light scrollspy-example " style={{ fontFamily: "Cairo, sans-serif" }} id="simple-list-item-5" data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" tabIndex="0">
                     <div>
-                        <h1>Contact-Me</h1>
+                        <h1>{languageState==="JP"?"お問い合わせ":"Contact-Me"}</h1>
                     </div>
                     <div className='email-ph d-flex justify-content-center'>
                         <h4>logeshthirumurugan@gmail</h4>
@@ -61,16 +63,16 @@ function Contact() {
                 <div className="container contact-container text-light">
                     <form className="contacti-div text-center" onSubmit={formik.handleSubmit}>
                         <div action="" className="form-c">
-                            <input placeholder="Your Name" type="string" name='Name' required onChange={formik.handleChange} value={formik.values.Name} />
-                            <input placeholder="E-mail" type="email" name='Email' required onChange={formik.handleChange} value={formik.values.Email} />
-                            <input placeholder="Subject" type="string" name='Subject' required onChange={formik.handleChange} value={formik.values.Subject} />
+                            <input placeholder={languageState==="JP"?"あなたの名前":"Your Name"} type="string" name='Name' required onChange={formik.handleChange} value={formik.values.Name} />
+                            <input placeholder={languageState==="JP"?"メール":"E-Mail"} type="email" name='Email' required onChange={formik.handleChange} value={formik.values.Email} />
+                            <input placeholder={languageState==="JP"?"テーマ":"Subject"} type="string" name='Subject' required onChange={formik.handleChange} value={formik.values.Subject} />
 
                         </div>
-                        <textarea className="area" cols="30" rows="10" type="string" name="Message" placeholder="Your message" onChange={formik.handleChange} value={formik.values.Message}></textarea>
+                        <textarea className="area" cols="30" rows="10" type="string" name="Message" placeholder={languageState==="JP"?"メッセージ":"Your Message"} onChange={formik.handleChange} value={formik.values.Message}></textarea>
                         <div>
                             {
                                 issending? <button type="submit" className="btn-send"><div class="spinner-border ms-auto" role="status" aria-hidden="true"></div></button>:
-                            <button type="submit" className="btn-send">Send <i className="bi bi-send"></i></button>
+                            <button type="submit" className="btn-send">{languageState==="JP"?"送信":"Send"} <i className="bi bi-send"></i></button>
                             }
 
 

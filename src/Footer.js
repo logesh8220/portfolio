@@ -1,10 +1,12 @@
 import React from 'react'
+import { useAppContext } from './ContextForSwitchLanguage'
 
 function Footer() {
+    const { languageState} = useAppContext()
     return (
         <div>
             <div className="footer-head container text-light text-center">
-                <h3 className="quotes">Make it work, make it right, make it fast.</h3>
+                <h3 className="quotes">{languageState==="JP"?"動くようにする、正しくする、速くする。":"Make it work, make it right, make it fast."}</h3>
             </div>
             <div className="footer text-light text-center">
                 <div className="text-center">
@@ -18,7 +20,7 @@ function Footer() {
                 <div>
                     <h6 className="text-light fw-bolder mt-3 made text-muted"
                         style={{fontFamily:"Montserrat Alternates, sans-serif", opacity: "40%"}}><i
-                            className="fa-brands fa-bootstrap fa-1x mx-2"></i>Made With Bootstrap</h6>
+                            className="fa-brands fa-bootstrap fa-1x mx-2"></i>Made With React</h6>
                 </div>
             </div>
         </div>
