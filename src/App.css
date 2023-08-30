@@ -373,15 +373,17 @@ body{
     justify-content: center;
     transition: 0.5s ease;
   }
-  .list-items li {
+  .list-items li  {
     list-style-type: none;
+    display: block;
     font-size: larger;
     font-family: "Cairo", sans-serif;
-    margin-bottom: 100px;
+    margin-bottom: 45px !important;
     position: relative;
     right: 15px;
     width: 100%;
     transition: 0.5s ease;
+     
   }
   .home {
     margin-top: 7rem;
@@ -410,6 +412,7 @@ body{
   .resume:hover{
     color:#ffffff
   }
+  
 }
 
 @media screen and (max-width: 1800px) {
