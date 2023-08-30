@@ -535,6 +535,22 @@ body{
   .list-items li a {
     color: #ffffff;
   }
+  
+
+  .list-item-tr {
+    text-decoration: none;
+    transition: .7s ease-in-out;
+  }
+
+  .list-item-tr:hover {
+    border-bottom: #ffffff 2px solid;
+    transition: 0.2s ease-in-out;
+  }
+  .list-item-tr {
+    color: #ffffff;
+  }
+
+
   .folio {
     color: #fff !important;
   }
