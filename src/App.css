@@ -414,8 +414,19 @@ body{
   }
   
 }
-
 @media screen and (max-width: 1800px) {
+  .list-items li {
+    font-size:larger;
+    margin:20px ;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .list-items li {
+    font-size:small;
+    margin:10px ;
+  }
+}
+@media screen and (max-width: 1000px) {
 
   .about-section {
     height: 850px;
@@ -505,7 +516,7 @@ body{
     position: absolute;
     right: 0px;
     margin: 0px;
-    padding-top: 10px;
+    padding-top:0px !important;
     height: 100vh;
     width: 250px;
     transition: .3s ease-in-out;
